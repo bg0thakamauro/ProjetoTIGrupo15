@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.org/sports"
+           xmlns="http://www.example.org/sports"
+           elementFormDefault="qualified">
+
+    <xs:element name="site">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="NBA"/>
+                <xs:element ref="Portugal"/>
+                <xs:element ref="legends"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="NBA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="league"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Portugal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="league"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="league">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="founded" type="xs:integer"/>
+                <xs:element ref="teams"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="teams">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="team"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+   
+    <xs:element name="team">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="location" type="xs:string"/>
+                <xs:element name="championships" type="xs:integer"/>
+                <xs:element ref="star_players"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="star_players">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="player"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="player">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="position" type="xs:string"/>
+                <xs:element name="jersey_number" type="xs:integer"/>
+                <xs:element minOccurs="0" name="team" type="xs:string"/>
+                <xs:element minOccurs="0" name="championships" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="legends">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="player"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

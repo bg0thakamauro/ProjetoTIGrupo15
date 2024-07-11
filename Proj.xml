@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site xmlns ="http://www.example.org/sports"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.example.org/sports sports.xsd">
+
+    <NBA>
+        <league>
+            <name>National Basketball Association (NBA)</name>
+            <founded>1946</founded>
+            <teams>
+                <team>
+                    <name>Los Angeles Lakers</name>
+                    <location>Los Angeles, CA</location>
+                    <championships>17</championships>
+                    <star_players>
+                        <player>
+                            <name>LeBron James</name>
+                            <position>Forward</position>
+                            <jersey_number>6</jersey_number>
+                        </player>
+                        <player>
+                            <name>Kobe Bryant</name>
+                            <position>Guard</position>
+                            <jersey_number>24</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>Golden State Warriors</name>
+                    <location>San Francisco, CA</location>
+                    <championships>6</championships>
+                    <star_players>
+                        <player>
+                            <name>Stephen Curry</name>
+                            <position>Guard</position>
+                            <jersey_number>30</jersey_number>
+                        </player>
+                        <player>
+                            <name>Klay Thompson</name>
+                            <position>Guard</position>
+                            <jersey_number>11</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>Chicago Bulls</name>
+                    <location>Chicago, IL</location>
+                    <championships>6</championships>
+                    <star_players>
+                        <player>
+                            <name>Michael Jordan</name>
+                            <position>Guard</position>
+                            <jersey_number>23</jersey_number>
+                        </player>
+                        <player>
+                            <name>Scottie Pippen</name>
+                            <position>Forward</position>
+                            <jersey_number>33</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>Miami Heat</name>
+                    <location>Miami, FL</location>
+                    <championships>3</championships>
+                    <star_players>
+                        <player>
+                            <name>Dwyane Wade</name>
+                            <position>Guard</position>
+                            <jersey_number>3</jersey_number>
+                        </player>
+                        <player>
+                            <name>Shaquille O'Neal</name>
+                            <position>Center</position>
+                            <jersey_number>32</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>Boston Celtics</name>
+                    <location>Boston, MA</location>
+                    <championships>17</championships>
+                    <star_players>
+                        <player>
+                            <name>Larry Bird</name>
+                            <position>Forward</position>
+                            <jersey_number>33</jersey_number>
+                        </player>
+                        <player>
+                            <name>Paul Pierce</name>
+                            <position>Forward</position>
+                            <jersey_number>34</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+            </teams>
+        </league>
+    </NBA>
+
+
+    <Portugal>
+        <league>
+            <name>Campeonato Nacional de Basquetebol (Portugal)</name>
+            <founded>1927</founded>
+            <teams>
+                <team>
+                    <name>SL Benfica</name>
+                    <location>Lisbon</location>
+                    <championships>28</championships>
+                    <star_players>
+                        <player>
+                            <name>Carlos Lisboa</name>
+                            <position>Guard</position>
+                            <jersey_number>15</jersey_number>
+                        </player>
+                        <player>
+                            <name>António Tavares</name>
+                            <position>Forward</position>
+                            <jersey_number>7</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>FC Porto</name>
+                    <location>Porto</location>
+                    <championships>12</championships>
+                    <star_players>
+                        <player>
+                            <name>Mário Gil</name>
+                            <position>Guard</position>
+                            <jersey_number>10</jersey_number>
+                        </player>
+                        <player>
+                            <name>Carlos Andrade</name>
+                            <position>Forward</position>
+                            <jersey_number>9</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>UD Oliveirense</name>
+                    <location>Oliveira de Azeméis</location>
+                    <championships>4</championships>
+                    <star_players>
+                        <player>
+                            <name>João Grosso</name>
+                            <position>Guard</position>
+                            <jersey_number>5</jersey_number>
+                        </player>
+                        <player>
+                            <name>Justin Watts</name>
+                            <position>Forward</position>
+                            <jersey_number>23</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>SC Lusitânia</name>
+                    <location>Angra do Heroísmo</location>
+                    <championships>1</championships>
+                    <star_players>
+                        <player>
+                            <name>Ricardo Gomes</name>
+                            <position>Guard</position>
+                            <jersey_number>4</jersey_number>
+                        </player>
+                        <player>
+                            <name>Marco Pipoca</name>
+                            <position>Forward</position>
+                            <jersey_number>8</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+                <team>
+                    <name>Barreirense</name>
+                    <location>Barreiro</location>
+                    <championships>2</championships>
+                    <star_players>
+                        <player>
+                            <name>Jorge Coelho</name>
+                            <position>Guard</position>
+                            <jersey_number>11</jersey_number>
+                        </player>
+                        <player>
+                            <name>Jonatan Flowers</name>
+                            <position>Forward</position>
+                            <jersey_number>15</jersey_number>
+                        </player>
+                    </star_players>
+                </team>
+            </teams>
+        </league>
+    </Portugal>
+    <legends>
+        <player>
+            <name>Michael Jordan</name>
+            <position>Guard</position>
+            <team>Chicago Bulls</team>
+            <championships>6</championships>
+        </player>
+        <player>
+            <name>Shaquille O'Neal</name>
+            <position>Center</position>
+            <team>Los Angeles Lakers</team>
+            <championships>4</championships>
+        </player>
+        <player>
+            <name>Larry Bird</name>
+            <position>Forward</position>
+            <team>Boston Celtics</team>
+            <championships>3</championships>
+        </player>
+        <player>
+            <name>Carlos Lisboa</name>
+            <position>Guard</position>
+            <team>SL Benfica</team>
+            <championships>15</championships>
+        </player>
+        <player>
+            <name>Mário Gil</name>
+            <position>Guard</position>
+            <team>FC Porto</team>
+            <championships>12</championships>
+        </player>
+    </legends>
+
+</site>
