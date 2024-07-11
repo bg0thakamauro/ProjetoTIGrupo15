@@ -16,20 +16,6 @@ Um projeto que explora dados e informações sobre o basquetebol, focando na NBA
   - **[style.css](src/style.css)**: Arquivo CSS para estilização das páginas.
   - **[java](src/java)**: Pasta contendo código Java para manipulação dos arquivos XML.
 
-* **Documentação** está na pasta `docs`:
-  - **[chapter1.md](docs/chapter1.md)**: Capítulo 1 - Introdução ao Projeto: Objetivos, contexto e descrição geral.
-  - **[chapter2.md](docs/chapter2.md)**: Capítulo 2 - NBA e Basquetebol em Portugal: Detalhes sobre a estrutura das ligas, times e jogadores.
-  - **[chapter3.md](docs/chapter3.md)**: Capítulo 3 - Jogadores Lendários: Histórico e impacto dos grandes jogadores de basquetebol.
-  - **[chapter4.md](docs/chapter4.md)**: Capítulo 4 - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
-
-## Galeria
-
-| Página | Captura de Tela |
-|--------|-----------------|
-| NBA | ![Página NBA](/img/nba.png) |
-| Portugal | ![Página Portugal](/img/portugal.png) |
-| Jogadores | ![Página Jogadores](/img/jogadores.png) |
-
 ## Tecnologias
 
 * [XML](https://www.w3.org/XML/)
@@ -40,11 +26,3 @@ Um projeto que explora dados e informações sobre o basquetebol, focando na NBA
 ### Frameworks e Bibliotecas
 
 N/A
-
-## Relatório
-
-Na pasta `docs`:
-  - **[chapter1.md](docs/chapter1.md)**: Capítulo 1 - Introdução ao Projeto: Objetivos, contexto e descrição geral.
-  - **[chapter2.md](docs/chapter2.md)**: Capítulo 2 - NBA e Basquetebol em Portugal: Detalhes sobre a estrutura das ligas, times e jogadores.
-  - **[chapter3.md](docs/chapter3.md)**: Capítulo 3 - Jogadores Lendários: Histórico e impacto dos grandes jogadores de basquetebol.
-  - **[chapter4.md](docs/chapter4.md)**: Capítulo 4 - Apresentação: Preparação para a apresentação final, incluindo slides e pontos de discussão.
