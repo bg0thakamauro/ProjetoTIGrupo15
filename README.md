@@ -1,7 +1,5 @@
 # Projeto Basquetebol
 
-Repositório para hospedar o projeto desenvolvido para a disciplina de 'Basquetebol', um trabalho do semestre na Universidade XPTO. Desenvolvido pelo Grupo ALPHA: [@MarcoOliveira](https://github.com/marcoamarooliveira), [adicionar outros membros].
-
 ## Descrição do Tema
 
 Um projeto que explora dados e informações sobre o basquetebol, focando na NBA e no basquetebol português.
@@ -14,8 +12,6 @@ Um projeto que explora dados e informações sobre o basquetebol, focando na NBA
   - **[Players.xml](src/Players.xml)**: Arquivo XML com informações sobre jogadores lendários.
   - **[Validation.xsd](src/Validation.xsd)**: Arquivo XSD para validação dos arquivos XML.
   - **[style.css](src/style.css)**: Arquivo CSS para estilização das páginas.
-  - **[java](src/java)**: Pasta contendo código Java para manipulação dos arquivos XML.
-
 ## Tecnologias
 
 * [XML](https://www.w3.org/XML/)
